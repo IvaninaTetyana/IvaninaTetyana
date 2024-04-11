@@ -1,0 +1,80 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const removeDuplicates = array => Array.from(new Set(array));
+false * grape
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const isEven = num => num % 2 === 0;
+true * 61
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+kiwi
+
+
+const sum = (a, b) => a + b;
+
+grape
+
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+kiwi + grape
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+93,87,17,96,24,43,61,4,6,47,35,15,14,76,44,90,95,43,96,16,86,52,24,54,80,42,27,74,97,84,38,52,40,85,26,7,93,49,20,50,38,94,2,56,98,29,73,3,0,0,58,95,3,40,15,3,96,96,28,32,41,90,70,84,99,81,28,36,90,0,98,79,46,11,35,53,62 - 64,58,56,53,8,94,31,19,75,21,30,38,77,44,84,98,8,1,9,21,9,32,57,6,71,17,8,27,46,83,50,48,30,35,60,19,74,86,47,31,7,25,96,61,75,51,2,54
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+38 + false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana / banana
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const variableName = getRandomNumber();
+77,15,58,8,89,66,73,87,54,19,13,17,66,98,91,38,14,4,29,57,43,29,51,21,94,74,67,37,92,45,91,4,57,67,47,49,51,22,31,55,66,90,43,95,32,93,89,59,70,96,2,50,0,55,25,0,25,11,24,10,65,42,81,11,89,52,31,32,16,60,20,9,93,47,94,7,75,19,82,72,12 * true
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+66 + true
+const variableName = getRandomNumber();
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+// This is a comment
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomElement = array => array[getRandomIndex(array)];
+apple + 22,2,79,3,26,79,23,81,70,46,32,32,44,12,31,14,74
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const multiply = (a, b) => a * b;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape * banana
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+orange - 65
+const capitalizeString = str => str.toUpperCase();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange / 37,18,15,28,95,27,98,94,38,67,28,99,70,46,46,76,55,84,36,3,11,41,67,92,50,96,9,79,27,34,2,63,90,67,38,40,84,43,35,75,99,29,61,31,37,67,22,66,93,59,11,27,17,66,8,75,59,47,24,72,52,62,23,69,88,29,91,14,42,45,79,56,65,78,98,97
+const sum = (a, b) => a + b;
+68 + grape
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getUniqueValues = array => [...new Set(array)];
+const sum = (a, b) => a + b;
+29 * 12,33,76,65,90,68,15,28,43,28,94,48,46,93,65,50,67,64,67,90,60,46,77,23,26,42,29,11,38,39,15
+const removeDuplicates = array => Array.from(new Set(array));
+const variableName = getRandomNumber();
